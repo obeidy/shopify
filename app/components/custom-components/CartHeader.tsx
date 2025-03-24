@@ -16,6 +16,8 @@ interface CartHeaderProps {
     cart: Promise<CartApiQueryFragment | null>;
     openOverlayClick: () => void;
     closeOverlayClick: () => void;
+
+    
 }
 
 export default function CartHeader({cart, openOverlayClick,closeOverlayClick }: CartHeaderProps) {
